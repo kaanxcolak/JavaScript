@@ -1,2 +1,2 @@
 # Current Day
-aaaaa
+Display current day and time.
