@@ -1,2 +1,2 @@
-# Current Day
-Display current day and time.
+# JavaScript Basic Exercises
+
