@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap');
+:root {
+    --line-border-fill: #36827f;
+    --line-border-empty: #f4eded;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cherry Cream Soda', cursive;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 30px;
+    width: 350vw;
+    max-width: 100%;
+}
+
+.progress-container::before {
+    content: '';
+    background-color: var(--line-border-empty);
+    height: 4px;
+    width: 10%;
+}
